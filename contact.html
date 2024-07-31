@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="abt-body">
+  
+    <header class="abt-header">
+        <img src="images/photo_2024-03-04_03-14-33.jpg" alt="" height="80px" width="70px" class="logo">
+        
+        <nav class="nav"> 
+          <div class="nav-menu">
+            <div class="nav-item">
+          <a href="home.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        </div> 
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+     </nav>
+    </header>
+      <div class="background-image">
+    <main class="contact-us">
+        <div class="contact-1">
+            <p class="contact" id="contact_header">CONTACT US</p>
+            <p>Dont hesitate to reach out to us if you have any questions!</p>
+            <i class='bx bx-envelope'></i><span>  technologiesrod@gmail.com </span><br> <br>
+            <i class='bx bx-phone' ></i> <span>+251 956569696</span>
+           
+        </div>
+        
+        <div>
+        <br>
+    </div>
+          
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+            <h2 id="send_message">Send us a message below for any enquiry</h2>
+            <input type="hidden" name="access_key" value="dd8eb732-d5ac-425d-a273-80ce374c5d7b">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" required>
+            <br>
+            <br>
+            <label for="message">Send us a message:</label>
+            <br>
+            <textarea name="message" id cols="0" rows="10" placeholder="Type a message"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+            
+          </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
